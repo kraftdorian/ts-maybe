@@ -1,6 +1,6 @@
 module.exports = {
   roots: [
-    "src",
+    "__tests__"
   ],
   moduleFileExtensions: [
     "js",

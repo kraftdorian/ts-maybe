@@ -1,15 +1,19 @@
 {
+  "exclude": [
+    "__tests__/**/*",
+  ],
   "compilerOptions": {
     "target": "es5",
     "lib": [
-      "es5"
+      "es5",
+      "es2015.symbol",
     ],
     "module": "esnext",
     "rootDir": "src",
     "moduleResolution": "node",
     "baseUrl": "src",
     "types": [
-      "jest"
+      "jest",
     ],
     "allowJs": false,
     "declaration": true,

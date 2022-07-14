@@ -41,7 +41,9 @@ function getESMOutputOptions(options) {
 }
 
 export default {
-  input: ["src/index.ts"],
+  input: [
+    "src/index.ts",
+  ],
   output: [
     // ESM
     getESMOutputOptions(
