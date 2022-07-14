@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/kraftdorian/ts-maybe#readme",
   "lint-staged": {
-    "src/**/*.{ts,tsx,mdx}": [
+    "(src|__tests__)/**/*.ts": [
       "prettier --write"
     ]
   },
