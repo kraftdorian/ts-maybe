@@ -1,6 +1,8 @@
-import { Maybe } from '../maybe';
+import { Maybe } from '../types/maybe';
+import { Fun } from '../types/function';
+
 import { pure } from '../functor/applicative';
-import { Fun } from '../util/function';
+
 import { Nothing } from '../nothing';
 
 export function lift<A>(input: A): Maybe<A> {

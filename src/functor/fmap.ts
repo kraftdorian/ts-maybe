@@ -1,5 +1,6 @@
-import { Fun } from '../util/function';
-import { Maybe } from '../maybe';
+import { Fun } from '../types/function';
+import { Maybe } from '../types/maybe';
+
 import { Nothing } from '../nothing';
 import { Just } from '../just';
 

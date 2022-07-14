@@ -1,6 +1,7 @@
-import { Maybe } from '../maybe';
+import { Maybe } from '../types/maybe';
+import { Fun } from '../types/function';
+
 import { Just } from '../just';
-import { Fun } from '../util/function';
 import { Nothing } from '../nothing';
 import { fmap } from './fmap';
 

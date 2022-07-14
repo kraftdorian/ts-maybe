@@ -1,5 +1,6 @@
-import { Maybe } from '../maybe';
-import { Fun } from '../util/function';
+import { Maybe } from '../types/maybe';
+import { Fun } from '../types/function';
+
 import { bind } from './base';
 
 export class Monad<A> {
