@@ -1,0 +1,50 @@
+{
+  "name": "ts-maybe",
+  "version": "0.1.0",
+  "description": "Maybe utilities inspired by Haskell lang",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup --config",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraftdorian/ts-maybe.git"
+  },
+  "author": "kraftdorian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kraftdorian/ts-maybe/issues"
+  },
+  "homepage": "https://github.com/kraftdorian/ts-maybe#readme",
+  "lint-staged": {
+    "src/**/*.{ts,tsx,mdx}": [
+      "prettier --write"
+    ]
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.60.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "ts-jest": "^27.0.7",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2",
+    "yorkie": "^2.0.0"
+  }
+}
