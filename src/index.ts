@@ -9,3 +9,5 @@ export * from './monad/oop';
 
 export * from './types/function';
 export * from './types/maybe';
+
+export * from './utils/factory';
